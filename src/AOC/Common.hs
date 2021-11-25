@@ -7,9 +7,9 @@
 --
 -- Meant to be a place to include common functionality used across
 -- different parts in the challenge.
---
+module AOC.Common
+  ( firstJust,
+  )
+where
 
-
-module AOC.Common (
-  ) where
-
+import AOC.Util

@@ -1,4 +1,4 @@
-{-# OPTIONS_GHC -Wno-unused-imports   #-}
+{-# OPTIONS_GHC -Wno-unused-imports #-}
 {-# OPTIONS_GHC -Wno-unused-top-binds #-}
 
 -- |
@@ -20,24 +20,28 @@
 --     types @_ :~> _@ with the actual types of inputs and outputs of the
 --     solution.  You can delete the type signatures completely and GHC
 --     will recommend what should go in place of the underscores.
+module AOC.Challenge.Day02
+  (
+  )
+where
 
-module AOC.Challenge.Day02 (
-    -- day02a
-  -- , day02b
-  ) where
+-- day02a
+-- , day02b
 
-import           AOC.Prelude
+import AOC.Prelude
 
 day02a :: _ :~> _
-day02a = MkSol
-    { sParse = Just
-    , sShow  = show
-    , sSolve = Just
+day02a =
+  MkSol
+    { sParse = Just,
+      sShow = show,
+      sSolve = Just
     }
 
 day02b :: _ :~> _
-day02b = MkSol
-    { sParse = Just
-    , sShow  = show
-    , sSolve = Just
+day02b =
+  MkSol
+    { sParse = Just,
+      sShow = show,
+      sSolve = Just
     }
